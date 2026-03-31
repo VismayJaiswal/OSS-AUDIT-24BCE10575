@@ -12,7 +12,8 @@ This project presents a detailed study of Git, a widely used open-source distrib
 
 In addition to theoretical exploration, the project includes multiple shell scripts that demonstrate practical usage of Linux commands and open-source concepts in real-world scenarios.
 
-Repository Layout
+Repository Layout:
+
 OSS-AUDIT-24BCE10575
 │
 ├── README.md
@@ -20,18 +21,19 @@ OSS-AUDIT-24BCE10575
 ├── report.pdf
 │
 ├── scripts
-│   ├── system_identity.sh
-│   ├── package_inspector.sh
-│   ├── disk_audit.sh
-│   ├── log_analyzer.sh
-│   └── manifesto.sh
+│ ├── system_identity.sh
+│ ├── package_inspector.sh
+│ ├── disk_audit.sh
+│ ├── log_analyzer.sh
+│ └── manifesto.sh
 │
 └── screenshots
-    ├── script1.png
-    ├── script2.png
-    ├── script3.png
-    ├── script4.png
-    └── script5.png
+├── script1.png
+├── script2.png
+├── script3.png
+├── script4.png
+└── script5.png
+
 Description of Scripts
 Script 1 — System Identity Report
 

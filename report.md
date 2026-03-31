@@ -247,6 +247,7 @@ Git is widely used in:
 Software development
 Team collaboration
 Documentation management
+
 27. Learning Outcomes
 
 This project helped in understanding:
@@ -254,6 +255,7 @@ This project helped in understanding:
 Git concepts and workflow
 Open-source principles
 Linux shell scripting
+
 28. Conclusion
 
 Git is a powerful and essential tool in modern software development. Its distributed nature and efficiency make it highly suitable for collaborative environments.
@@ -264,6 +266,8 @@ This project provided both theoretical knowledge and practical exposure, enhanci
 Official Git Documentation
 Linux Documentation
 Open Source Initiative
+
+
 Author
 
 VISMAY JAISWAL
