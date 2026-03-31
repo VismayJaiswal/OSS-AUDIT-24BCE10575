@@ -1,90 +1,121 @@
-Open Source Audit — Git
-Student Information
+# Open Source Audit — Git
 
-Name: VISMAY JAISWAL
-Roll Number: 24BCE10575
-Course: Open Source Software
-Selected Tool: Git
+## Student Information
 
-Project Summary
+**Name:** VISMAY JAISWAL
+**Roll Number:** 24BCE10575
+**Course:** Open Source Software
+**Chosen Software:** Git
 
-This project presents a detailed study of Git, a widely used open-source distributed version control system. It focuses on understanding Git’s background, core principles, role in Linux-based environments, and its ecosystem.
+---
 
-In addition to theoretical exploration, the project includes multiple shell scripts that demonstrate practical usage of Linux commands and open-source concepts in real-world scenarios.
+## Project Overview
 
-Repository Layout:
+This project is an audit of Git, an open-source distributed version control system.
+The project explores Git's origin, philosophy, Linux footprint, ecosystem, and comparison with proprietary alternatives.
 
-OSS-AUDIT-24BCE10575
+The repository also includes five shell scripts demonstrating practical Linux and open-source concepts.
+
+---
+
+## Repository Structure
+
+```
+OSS-AUDIT-24MIM10109
 │
 ├── README.md
 ├── report.md
 ├── report.pdf
 │
 ├── scripts
-│ ├── system_identity.sh
-│ ├── package_inspector.sh
-│ ├── disk_audit.sh
-│ ├── log_analyzer.sh
-│ └── manifesto.sh
+│   ├── system_identity.sh
+│   ├── package_inspector.sh
+│   ├── disk_audit.sh
+│   ├── log_analyzer.sh
+│   └── manifesto.sh
 │
 └── screenshots
-├── script1.png
-├── script2.png
-├── script3.png
-├── script4.png
-└── script5.png
+    ├── script1.png
+    ├── script2.png
+    ├── script3.png
+    ├── script4.png
+    └── script5.png
+```
 
-Description of Scripts
-Script 1 — System Identity Report
+---
 
-Displays essential system details such as username, kernel version, operating system, home directory, and current date.
+## Shell Scripts Description
 
-Script 2 — FOSS Package Inspector
+### Script 1 — System Identity Report
 
-Verifies whether Git is installed on the system and prints its version information.
+Displays system information including user, kernel version, operating system, and date.
 
-Script 3 — Disk and Permission Auditor
+### Script 2 — FOSS Package Inspector
 
-Checks key directories and shows their access permissions to understand file security.
+Checks whether Git is installed and displays version information.
 
-Script 4 — Log File Analyzer
+### Script 3 — Disk and Permission Auditor
 
-Processes a sample log file and counts how many times a specific keyword appears.
+Audits important directories and displays permissions.
 
-Script 5 — Open Source Manifesto Generator
+### Script 4 — Log File Analyzer
 
-Creates a customized open-source statement based on user-provided input.
+Analyzes a log file and counts occurrences of keywords.
 
-Steps to Execute
+### Script 5 — Open Source Manifesto Generator
 
-Move to the project directory:
+Generates a personalized open-source manifesto based on user input.
 
-cd OSS-AUDIT-24BCE10575
+---
 
-Run the scripts using:
+## How to Run Scripts
 
+Navigate to the project directory:
+
+```
+cd OSS-AUDIT-24MIM10109
+```
+
+Run scripts:
+
+```
 bash scripts/system_identity.sh
 bash scripts/package_inspector.sh
 bash scripts/disk_audit.sh
 bash scripts/log_analyzer.sh
 bash scripts/manifesto.sh
-System Requirements
-Git Bash or any Linux-based terminal
-Bash shell environment
-Screenshots
+```
 
-Execution outputs of all scripts are stored in the screenshots folder for reference.
+---
 
-Project Report
+## Requirements
 
-Detailed documentation is available in the following files:
+* Git Bash / Linux Terminal
+* Bash Shell
 
-report.md
-report.pdf
-Final Remarks
+---
 
-This project highlights both conceptual and practical knowledge of open-source software. It demonstrates familiarity with Git, Linux commands, and shell scripting through structured implementation and analysis.
+## Screenshots
 
-Author
+Screenshots of all script executions are available in the screenshots folder.
+
+---
+
+## Report
+
+The complete project report is available as:
+
+* report.md
+* report.pdf
+
+---
+
+## Conclusion
+
+This project demonstrates understanding of open-source philosophy, Git ecosystem, and Linux shell scripting concepts through practical implementation.
+
+---
+
+**Author**
 VISMAY JAISWAL
 24BCE10575
